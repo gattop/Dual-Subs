@@ -2,40 +2,80 @@
 
 _Last updated: November 15, 2026_
 
-Dual Subs is a browser extension that shows a second subtitle on Netflix, Prime Video and Disney+.
+## In short
 
-## Data collection
+- Dual Subs **does not collect any data about you**.
+- It has **no servers, no accounts, no analytics and no ads**.
+- The only thing it saves is **your settings**, and they stay **in your browser**.
+- Nothing is sent to the developer or to anyone else.
 
-Dual Subs **does not collect, store, transmit or share any personal or usage data**.
+## What Dual Subs does
 
-- No analytics, tracking or telemetry.
-- No accounts and no servers operated by the developer.
-- No data is sold or transferred to third parties.
+Dual Subs is a browser extension for Netflix, Prime Video and Disney+. While
+you watch, it shows a second subtitle, in a language you choose, on top of the
+video. The service's own subtitle stays where it is.
 
-## Data stored on your device
+## What is saved, and where
 
-The extension saves only your preferences (whether it is on, the chosen
-subtitle language, position and text size) using the browser's local extension
-storage. This data never leaves your browser and is deleted when you uninstall
-the extension.
+Dual Subs remembers four settings:
 
-## Network requests
+- whether the second subtitle is on or off;
+- the language you chose;
+- its position on the screen (top or bottom);
+- the text size.
 
-On Netflix, Prime Video and Disney+ the extension downloads the subtitle file for the
-language you choose, from the same servers that the streaming service's own
-player uses. No other requests are made.
+These settings are saved **only in your browser**, in the storage that
+browsers give to extensions. They are never sent anywhere. They are deleted
+when you remove the extension.
+
+## What happens while you watch
+
+To show the second subtitle, Dual Subs works inside the streaming page:
+
+1. It reads the list of subtitles that the streaming service already sends to
+   its own player (for example: English, Italian, Spanish).
+2. On Netflix, it also asks the player to include a text version of the
+   subtitles, because some are otherwise available only in formats the
+   extension cannot display.
+3. It downloads the subtitle file for the language you chose, **from the same
+   servers the streaming service uses**. On Disney+ the subtitles come in many
+   small pieces, so it downloads all of them.
+4. It shows the right line at the right moment, on top of the video.
+
+All of this happens on your computer. The subtitle text is not saved and is
+not sent to anyone. The extension does not see or use your account details,
+your viewing history, or anything you type.
+
+## Where it runs
+
+Dual Subs runs **only** on:
+
+- netflix.com
+- primevideo.com
+- disneyplus.com
+- the Prime Video pages of Amazon sites (addresses containing `/gp/video/`)
+
+It does not run on any other website, and not on the Amazon store.
 
 ## Permissions
 
-- **storage**: to remember your preferences.
-- **Access to Netflix, Prime Video and Disney+ pages** (netflix.com, primevideo.com, disneyplus.com and
-  the /gp/video/ pages of Amazon sites): to read the list of available
-  subtitles and display the second subtitle over the video. The extension does
-  not run on any other website or on the Amazon store.
+- **Storage**: to remember your settings.
+- **Access to the sites listed above**: to read the list of subtitles and show
+  the second subtitle over the video.
+
+## Your choices
+
+- To turn the second subtitle off, use the switch in the extension's window.
+- To delete your settings, remove the extension from your browser.
+
+## Changes to this policy
+
+If this policy changes, the new version will be published at this same
+address, with a new date at the top.
 
 ## Contact
 
-For questions about this policy: _[your contact email]_
+Questions about this policy: _[your contact email]_
 
 ---
 
@@ -43,37 +83,79 @@ For questions about this policy: _[your contact email]_
 
 _Ultimo aggiornamento: 15 novembre 2026_
 
-Dual Subs è un'estensione del browser che mostra un secondo sottotitolo su Netflix, Prime Video e Disney+.
+## In breve
 
-## Raccolta di dati
+- Dual Subs **non raccoglie nessun dato su di te**.
+- **Non ha server, account, statistiche né pubblicità**.
+- L'unica cosa che salva sono **le tue impostazioni**, e restano **nel tuo browser**.
+- Nulla viene inviato allo sviluppatore o ad altri.
 
-Dual Subs **non raccoglie, conserva, trasmette né condivide alcun dato personale o di utilizzo**.
+## Cosa fa Dual Subs
 
-- Nessuna statistica, tracciamento o telemetria.
-- Nessun account e nessun server gestito dallo sviluppatore.
-- Nessun dato viene venduto o ceduto a terzi.
+Dual Subs è un'estensione del browser per Netflix, Prime Video e Disney+.
+Mentre guardi un titolo, mostra sopra il video un secondo sottotitolo nella
+lingua che scegli. Il sottotitolo della piattaforma resta al suo posto.
 
-## Dati salvati sul tuo dispositivo
+## Cosa viene salvato, e dove
 
-L'estensione salva solo le tue preferenze (attiva o no, lingua del
-sottotitolo, posizione e dimensione del testo) nella memoria locale delle
-estensioni del browser. Questi dati non lasciano mai il browser e vengono
-eliminati quando disinstalli l'estensione.
+Dual Subs ricorda quattro impostazioni:
 
-## Richieste di rete
+- se il secondo sottotitolo è attivo o no;
+- la lingua che hai scelto;
+- la posizione sullo schermo (in alto o in basso);
+- la dimensione del testo.
 
-Su Netflix, Prime Video e Disney+ l'estensione scarica il file dei sottotitoli della
-lingua scelta dagli stessi server usati dal player della piattaforma. Non
-vengono fatte altre richieste.
+Queste impostazioni sono salvate **solo nel tuo browser**, nello spazio che i
+browser riservano alle estensioni. Non vengono mai inviate da nessuna parte e
+vengono cancellate quando rimuovi l'estensione.
+
+## Cosa succede mentre guardi
+
+Per mostrare il secondo sottotitolo, Dual Subs lavora dentro la pagina del
+servizio:
+
+1. Legge l'elenco dei sottotitoli che il servizio invia già al suo player
+   (per esempio: inglese, italiano, spagnolo).
+2. Su Netflix chiede anche al player di includere una versione in testo dei
+   sottotitoli, perché alcuni altrimenti sono disponibili solo in formati che
+   l'estensione non può mostrare.
+3. Scarica il file dei sottotitoli nella lingua scelta, **dagli stessi server
+   usati dal servizio**. Su Disney+ i sottotitoli sono divisi in tanti piccoli
+   pezzi, quindi li scarica tutti.
+4. Mostra la battuta giusta al momento giusto, sopra il video.
+
+Tutto avviene sul tuo computer. Il testo dei sottotitoli non viene salvato né
+inviato a nessuno. L'estensione non vede e non usa i dati del tuo account, la
+tua cronologia di visione o quello che scrivi.
+
+## Dove funziona
+
+Dual Subs funziona **solo** su:
+
+- netflix.com
+- primevideo.com
+- disneyplus.com
+- le pagine Prime Video dei siti Amazon (indirizzi che contengono `/gp/video/`)
+
+Non funziona su nessun altro sito, e nemmeno sul negozio Amazon.
 
 ## Permessi
 
-- **storage**: per ricordare le preferenze.
-- **Accesso alle pagine di Netflix, Prime Video e Disney+** (netflix.com, primevideo.com, disneyplus.com
-  e le pagine /gp/video/ dei siti Amazon): per leggere l'elenco dei sottotitoli
-  disponibili e mostrare il secondo sottotitolo sopra il video. L'estensione non
-  funziona su nessun altro sito né sul negozio Amazon.
+- **Archiviazione**: per ricordare le impostazioni.
+- **Accesso ai siti elencati sopra**: per leggere l'elenco dei sottotitoli e
+  mostrare il secondo sottotitolo sopra il video.
+
+## Le tue scelte
+
+- Per spegnere il secondo sottotitolo, usa l'interruttore nella finestra
+  dell'estensione.
+- Per cancellare le impostazioni, rimuovi l'estensione dal browser.
+
+## Modifiche a questa informativa
+
+Se l'informativa cambia, la nuova versione sarà pubblicata a questo stesso
+indirizzo, con una nuova data in alto.
 
 ## Contatti
 
-Per domande su questa informativa: _[la tua email di contatto]_
+Domande su questa informativa: _[la tua email di contatto]_
