@@ -1,0 +1,11 @@
+{
+  "name": "dual-subs",
+  "version": "1.2.3",
+  "private": true,
+  "description": "Estensione per browser Chromium (Brave, Chrome, Edge) per doppi sottotitoli su Netflix",
+  "scripts": {
+    "test": "node --test tests/",
+    "pack": "node scripts/pack.js",
+    "icons": "node scripts/make-icons.js icons"
+  }
+}
